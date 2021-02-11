@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "Toin",
+  "author": "causs",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
