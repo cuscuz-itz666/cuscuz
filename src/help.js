@@ -13,6 +13,7 @@ const help = (prefix) => {
   ├─ 🐊 ${prefix}blocklist
   ├─ 🐊 ${prefix}chatlist
   ├─ 🐊 ${prefix}ping
+  ├─ 🐊 ${prefix}dono
   └─ 🐊 ${prefix}bugreport
 🧐 *FAZER*
   │
