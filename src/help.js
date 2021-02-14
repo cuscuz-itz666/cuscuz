@@ -18,7 +18,7 @@ ____██_____██
   🐊 Prefix: 「  ${prefix}  」
   🐊 Criador : CAUSS (base toin) 
   🐊 Canal do criador: https://youtube.com/channel/UCpB3qh2Sp3K23s9a2Q-Gf-g
-
+  🐊 Parcerias:${prefix}parceria
 🧐 *SOBRE*
   │
   ├─ 🐊 ${prefix}info
@@ -26,6 +26,7 @@ ____██_____██
   ├─ 🐊 ${prefix}chatlist
   ├─ 🐊 ${prefix}ping
   ├─ 🐊 ${prefix}dono
+  ├─ 🐊 ${prefix}appbot
   └─ 🐊 ${prefix}bugreport
 🧐 *FAZER*
   │
