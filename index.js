@@ -660,7 +660,7 @@ case 'timer':
 				case 'info':
 					me = client.user
 					uptime = process.uptime()
-					teks = `*Nama bot* : ${me.name}\n*Número do bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Contato de bloqueio total* : ${blocked.length}\n*O bot está ativo em* : ${kyun(uptime)}\n*Bate Papo Total* : ${totalchat.length}`
+					teks = `*Nome do bot* : ${me.name}\n*Número do bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Contato de bloqueio total* : ${blocked.length}\n*O bot está ativo em* : ${kyun(uptime)}\n*Bate Papo Total* : ${totalchat.length}`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -779,6 +779,9 @@ case 'timer':
 					buffer = await getBuffer(`https://imgur.com/${meme.hash}.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '.......'})
 					break
+                               case '(parceiros)':
+		if (args.length < 1) return reply ('*PARCEIROS*: \nEaxy: https://youtube.com/c/EAXYFF\nYamii: https://youtube.com/c/TioYamiiroivemsmpaki\nSaad: https://youtube.com/channel/UCtX3fzhC-teLUpaS7Xz8nKA\nKazuma: https://youtube.com/channel/UChRgBlar0IKGAsseuBeNRgA')
+		                        break
 				case 'memeindo':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://imgur.com/${memein.hash}.jpg`)
